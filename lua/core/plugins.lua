@@ -30,5 +30,7 @@ require("lazy").setup({
 	opts = {
 		-- fill any relevant options here
 	},
+}, {
+	'nvim-treesitter/nvim-treesitter'
 },
 })
