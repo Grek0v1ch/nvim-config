@@ -32,5 +32,7 @@ require("lazy").setup({
 	},
 }, {
 	'nvim-treesitter/nvim-treesitter'
-},
+}, {
+	'Shatur/neovim-ayu'
+}
 })
