@@ -39,5 +39,7 @@ require("lazy").setup({
 }, {
 	'williamboman/mason.nvim',
 	build = ":MasonUpdate"
+}, {
+	'folke/noice.nvim'
 }
 })
