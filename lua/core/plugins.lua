@@ -34,5 +34,8 @@ require("lazy").setup({
 	'nvim-treesitter/nvim-treesitter'
 }, {
 	'Shatur/neovim-ayu'
+}, {
+	'williamboman/mason.nvim',
+	build = ":MasonUpdate"
 }
 })

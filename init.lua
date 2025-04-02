@@ -6,3 +6,4 @@ require('core.colors')
 -- Plugins
 require('plugins.neotree')
 require('plugins.treesitter')
+require('plugins.mason')
