@@ -35,6 +35,8 @@ require("lazy").setup({
 }, {
 	'Shatur/neovim-ayu'
 }, {
+	'neovim/nvim-lspconfig'
+}, {
 	'williamboman/mason.nvim',
 	build = ":MasonUpdate"
 }
