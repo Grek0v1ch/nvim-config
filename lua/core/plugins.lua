@@ -59,5 +59,7 @@ require("lazy").setup({
 	'hrsh7th/nvim-cmp'
 }, {
 	'hrsh7th/cmp-nvim-lsp'
+}, {
+	'kdheepak/lazygit.nvim'
 }
 })
