@@ -47,5 +47,17 @@ require("lazy").setup({
 	dependencies = {'nvim-lua/plenary.nvim'},
 }, {
 	'akinsho/bufferline.nvim', version = "*", dependencies = 'nvim-tree/nvim-web-devicons'
+}, {
+	'hrsh7th/nvim-cmp'
+}, {
+	'hrsh7th/cmp-buffer'
+}, {
+	'hrsh7th/cmp-path'
+}, {
+	'hrsh7th/cmp-cmdline'
+}, {
+	'hrsh7th/nvim-cmp'
+}, {
+	'hrsh7th/cmp-nvim-lsp'
 }
 })
