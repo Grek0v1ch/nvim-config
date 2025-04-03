@@ -41,5 +41,7 @@ require("lazy").setup({
 	build = ":MasonUpdate"
 }, {
 	'folke/noice.nvim'
+}, {
+	'akinsho/bufferline.nvim', version = "*", dependencies = 'nvim-tree/nvim-web-devicons'
 }
 })
