@@ -61,5 +61,7 @@ require("lazy").setup({
 	'hrsh7th/cmp-nvim-lsp'
 }, {
 	'kdheepak/lazygit.nvim'
+}, {
+	'puremourning/vimspector', build = ":VimspectorInstall",
 }
 })
