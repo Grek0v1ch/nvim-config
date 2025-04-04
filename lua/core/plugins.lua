@@ -63,5 +63,7 @@ require("lazy").setup({
 	'kdheepak/lazygit.nvim'
 }, {
 	'puremourning/vimspector', build = ":VimspectorInstall",
+}, {
+	'akinsho/toggleterm.nvim', version = "*", config = true
 }
 })
