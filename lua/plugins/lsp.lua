@@ -14,9 +14,15 @@ lspconfig.rust_analyzer.setup {
                     enable = true,
                 },
             },
+			formatting = {
+				enable = false,
+			},
     },
   },
 }
+
+lspconfig.texlab.setup {}
+
 -- Global mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
 local function open_loclist_and_set_mappings()

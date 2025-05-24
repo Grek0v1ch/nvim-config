@@ -8,7 +8,7 @@ require('ayu').setup({
 	mirage = false,
 	overrides = {
 		Normal = { bg = "None" },
-		ColorColumn = { bg="#C0C0C0" },
+		ColorColumn = { bg="#565b66" },
 		SignColumn = { bg = "None" },
 		Folded = { bg = "None" },
 		FoldColumn = { bg = "None" },
