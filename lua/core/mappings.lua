@@ -17,6 +17,7 @@ vim.keymap.set('n', '<leader>t', ':ToggleTerm direction=float<CR>')
 
 vim.keymap.set('n', '<esc>', ':noh<CR>')
 vim.keymap.set('n', '<leader>w', ':w<CR>')
+vim.keymap.set('n', '<leader>q', ':q<CR>')
 vim.keymap.set('n', '<leader>x', ':bd<CR>')
 vim.keymap.set('n', '<leader>X', ':BufferLineCloseRight<CR>')
 vim.keymap.set('n', '<leader>s', ':BufferLineSortByTabs<CR>')
