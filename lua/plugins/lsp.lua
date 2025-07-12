@@ -23,6 +23,18 @@ lspconfig.rust_analyzer.setup {
 
 lspconfig.texlab.setup {}
 
+lspconfig.pylsp.setup {
+	settings = {
+		pylsp = {
+			plugins = {
+				pylint = {
+					enabled = true,
+				},
+			},
+		},
+	},
+}
+
 -- Global mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
 local function open_loclist_and_set_mappings()
